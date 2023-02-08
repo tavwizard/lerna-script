@@ -1,6 +1,6 @@
 {
   "name": "wlerna-script",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": false,
   "description": "lerna extension for custom scripts",
   "main": "index.js",
@@ -20,6 +20,7 @@
     "url": "https://github.com/tavwizard/lerna-script.git"
   },
   "author": "Andrei Tumilovich (a.tumilovich@gmail.com)",
+  "license": "BSD",
   "publishConfig": {
     "access": "public"
   },

@@ -16,8 +16,6 @@ npm install --save-dev @tav/lerna-script
 
 - [Basic usage example](#basic-usage-example)
 - [Incremental builds](#incremental-builds)
-- [Tasks](#tasks)
-- [Git hooks](#git-hooks)
 - [External presets](#external-presets)
 
 ## Basic usage example
@@ -87,7 +85,7 @@ run tests for all modules, once one of the modules fail, fix it an continue, so 
 that already passed. Or do a change and run tests for a subtree that might be impacted by a change given module dependency
 graph.
 
-For this [lerna-script](./lerna-script) provides means to both mark modules as built and filter-out already built modules:
+For this lerna-script provides means to both mark modules as built and filter-out already built modules:
 
 ```js
 const {loadPackages, iter, exec, changes, filters} = require('lerna-script');
